@@ -34,7 +34,7 @@ export default function Home() {
   };
   return (
     <main className="flex min-h-screen flex-col items-center gap-10 p-24">
-      <div className="w-full flex items-center justify-between gap-4 rounded-full border border-violet-700 px-8 py-2">
+      {/* <div className="w-full flex items-center justify-between gap-4 rounded-full border border-violet-700 px-8 py-2">
         <input
           className="w-full bg-transparent outline-none"
           value={mnemonic}
@@ -83,7 +83,7 @@ export default function Home() {
         className="rounded-full px-4 py-2 shadow-3xl shadow-orange-600 bg-pink-500 text-white w-full"
       >
         Generate New Account
-      </button>
+      </button> */}
       <button
         onClick={async () => {
           await addXterio();
